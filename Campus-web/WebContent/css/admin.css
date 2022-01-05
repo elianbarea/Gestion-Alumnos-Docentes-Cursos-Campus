@@ -1,0 +1,115 @@
+/* EN COMUN */
+.bx_padre h1
+{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	text-align: center;
+	font-size: 22px;
+}
+
+.bx_padre input,
+.ddl_admin
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.bx_padre input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #FFF;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.bx_padre input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #FBFAC1;
+	color: #000;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.bx_padre label
+{
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-weight: bold;
+	display: block;
+}
+
+.bx_padre select
+{
+	border: none;
+	background: transparent;
+	height: 40px;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.bx_padre option
+{
+	background: #000;
+}
+/* INICIO */
+.bx_admin
+{
+	width: 330px;
+	height: 420px;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate( -50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;	
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+/* AGREGAR CURSO */
+.bx_curso
+{
+	width: 330px;
+	height: 420px;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate( -50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;	
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+/* AGREGAR ALUMNO*/
+.bx_alumno
+{
+	width: 330px;
+	height: 920px;
+	background: #000;
+	top: 50%;
+	left: 50%;
+	position: relative;
+	transform: translate( -50%, -27%);
+	box-sizing: border-box;
+	padding: 70px 30px;	
+	margin-top: 300px;
+	border-radius: 20px;
+}
+
+/* TABLA ADMIN*/
+.tbl_admin
+{
+	margin: 0;
+	content-align: bottom;
+}
